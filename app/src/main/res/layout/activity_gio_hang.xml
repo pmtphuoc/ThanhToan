@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GioHang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_media_rew"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+        <EditText
+            android:id="@+id/edtSL"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Số Lượng"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="28dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="4dp" />
+        <Button
+            android:id="@+id/btnXacNhanMua"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xác nhận mua" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Ten"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Don Gia"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_foreground" />
+
+
+</LinearLayout>
